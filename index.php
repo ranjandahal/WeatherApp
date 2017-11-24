@@ -1,88 +1,19 @@
 <?php
 include 'util/main.php';
-include 'view/header.php'; ?>
-    <hr>
-    <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">6 Hours</a></li>
-        <li><a data-toggle="tab" href="#option1">12 Hours</a></li>
-        <li><a data-toggle="tab" href="#option2">24 Hours</a></li>
-    </ul>
+require('model/ip.php');
+require('model/accuweather.php');
 
-    <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-            <div class="row">
-                <h2>6 Hours</h2>
-                <div class="col-sm-3">
-                    <h3>Weather Channel</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Dark Sky</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Accu Weather</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>NOAA</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-            </div>
-        </div>
-        <div id="option1" class="tab-pane fade">
-            <div class="row">
-                <h2>12 Hours</h2>
-                <div class="col-sm-3">
-                    <h3>Weather Channel</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Dark Sky</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Accu Weather</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>NOAA</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-            </div>
-        </div>
-        <div id="option2" class="tab-pane fade">
-            <div class="row">
-                <h2>24 Hours</h2>
-                <div class="col-sm-3">
-                    <h3>Weather Channel</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Dark Sky</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>Accu Weather</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-                <div class="col-sm-3">
-                    <h3>NOAA</h3>
-                    <p>The Weather Channel and weather.com provide a national and local weather
-                        forecast for cities, as well as weather radar, report and hurricane coverage.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-<?php include 'view/footer.php'; 
+
+$action = filter_input(INPUT_POST, 'action');
+if ($action == NULL) {
+    $action = filter_input(INPUT_GET, 'action');
+    if ($action == NULL) {
+        $action = 'search';
+    }
+}
+$ip = get_client_ip();
+$loc_key = get_current_location_id($ip);
+$weather_data = get_12hour_forcast($loc_key['key']);
+
+include('default.php');
+?>
