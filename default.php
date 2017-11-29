@@ -74,7 +74,7 @@ include 'view/header.php'; ?>
                     <div class="col-sm-3">
                         <h3>Accu Weather</h3>
                         <div id="accu">
-                        <?php echo $weather_data; ?>
+                        <?php echo is_null($weather_data)?'':$weather_data; ?>
                         </div>
                     </div>
                     <div class="col-sm-3">
