@@ -30,12 +30,14 @@ include 'view/header.php'; ?>
                         }
                     });
                 e.preventDefault(); //STOP default action
-                //e.unbind(); //unbind. to stop multiple form submit.
             });
             $('#searchsubmit').click(function () {
                 $("#searchform").submit(); //Submit  the FORM
             })
-
+            $('#search').keypress(function(e){
+                if(e.keyCode==13)
+                    $('#searchsubmit').click();
+            });
         })
     </script>
     <div class="container">
@@ -74,7 +76,7 @@ include 'view/header.php'; ?>
                     <div class="col-sm-3">
                         <h3>Accu Weather</h3>
                         <div id="accu">
-                        <?php echo $weather_data; ?>
+                        <?php echo is_null($weather_data)?'':$weather_data; ?>
                         </div>
                     </div>
                     <div class="col-sm-3">

@@ -19,6 +19,7 @@ $search = filter_input(INPUT_GET, 'search');
 
 $zip_key = get_zip_id($search);
 
-$data = get_12hour_forcast($zip_key['key']);
-print_r($data);
+//Accuweather data pull
+$data[] = get_12hour_forcast($zip_key['key']);
+print_r(json_encode($data));
 ?>

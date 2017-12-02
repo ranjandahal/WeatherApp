@@ -22,13 +22,13 @@ function get_current_location_id($ip){
         $geo = array('lat' => $results[0]['GeoPosition']['Latitude'],
             'lon' => $results[0]['GeoPosition']['Longitude']);
 
-        $ip_object = array('localname' => $local_name,
+        $ip_object = array(
+            'localname' => $local_name,
             'key' => $key,
             'postal' => $zip,
             'state' => $state,
             'geo' => $geo
         );
-
         return $ip_object;
     }
     return false;
@@ -52,7 +52,8 @@ function get_city_id($city){
                 break;
             }
         }
-        $city_object = array('localname' => $local_name,
+        $city_object = array(
+            'localname' => $local_name,
             'key' => $key,
             'postal' => 0,
             'state' => $state,
@@ -79,7 +80,7 @@ function get_zip_id($zip){
 
         $zip_object = array('localname' => $local_name,
             'key' => $key,
-            'postal' => $zip,
+            'zip' => $zip,
             'state' => $state,
             'geo' => $geo
         );
@@ -90,7 +91,7 @@ function get_zip_id($zip){
 }
 
 function get_1hour_forcast($key){
-    $url = FORECASE_1HOUR_URL . $key . ACCU_WEATHER_KEY;
+    $url = FORECASE_1HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
     $results = file_get_contents($url);
     $results = json_decode($results, true);
@@ -101,13 +102,26 @@ function get_1hour_forcast($key){
             $icon = $result['WeatherIcon'];
             $icon_phrase = $result['IconPhrase'];
             $temp = $result['Temperature']['Value'];
-            $prep = $result['PrecipitationProbability'];
+            $real_feel_temp = $result['RealFeelTemperature']['Value'];
+            $wind_speed = $result['Wind']['Speed']['Value'];
+            $humidity = $result['RelativeHumidity'];
+            $rain_probability = $result['RainProbability'];
+            $snow_probability = $result['SnowProbability'];
+            $cloud_cover = $result['CloudCover'];
+            $prep_probability = $result['PrecipitationProbability'];
         }
-        $hour_object = array('hour' => $hour,
+        $hour_object = array(
+            'hour' => $hour,
             'icon' => $icon,
             'icon_phrase' => $icon_phrase,
             'temp' => $temp,
-            'prep' => $prep,
+            'real_feel_temp' => $real_feel_temp,
+            'wind_speed' => $wind_speed,
+            'humidity' => $humidity,
+            'rain_probability' => $rain_probability,
+            'snow_probability' => $snow_probability,
+            'cloud_cover' => $cloud_cover,
+            'prep' => $prep_probability
         );
         return $hour_object;
     }
@@ -115,7 +129,7 @@ function get_1hour_forcast($key){
 }
 
 function get_12hour_forcast($key){
-    $url = FORECASE_12HOUR_URL . $key . ACCU_WEATHER_KEY;
+    $url = FORECASE_12HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
     $results = file_get_contents($url);
     $results = json_decode($results, true);
@@ -126,12 +140,25 @@ function get_12hour_forcast($key){
             $icon = $result['WeatherIcon'];
             $icon_phrase = $result['IconPhrase'];
             $temp = $result['Temperature']['Value'];
-            $prep = $result['PrecipitationProbability'];
-            $hour12_object[] = array('hour' => $hour,
+            $real_feel_temp = $result['RealFeelTemperature']['Value'];
+            $wind_speed = $result['Wind']['Speed']['Value'];
+            $humidity = $result['RelativeHumidity'];
+            $rain_probability = $result['RainProbability'];
+            $snow_probability = $result['SnowProbability'];
+            $cloud_cover = $result['CloudCover'];
+            $prep_probability = $result['PrecipitationProbability'];
+            $hour12_object[] = array(
+                'hour' => $hour,
                 'icon' => $icon,
                 'icon_phrase' => $icon_phrase,
                 'temp' => $temp,
-                'prep' => $prep,
+                'real_feel_temp' => $real_feel_temp,
+                'wind_speed' => $wind_speed,
+                'humidity' => $humidity,
+                'rain_probability' => $rain_probability,
+                'snow_probability' => $snow_probability,
+                'cloud_cover' => $cloud_cover,
+                'prep' => $prep_probability
             );
         }
         return $hour12_object;

@@ -19,6 +19,6 @@
 <body>
     <br/>
     <div class="text-center">
-        <img src="<?php echo $app_path?>images/WeatherLogo.png" alt="WeatherApp">
+        <a href="<?php echo $app_path?>index.php" ><img src="<?php echo $app_path?>images/WeatherLogo.png" alt="WeatherApp"></a>
     </div>
      <hr>
