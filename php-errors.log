@@ -1477,3 +1477,9 @@
 [08-May-2017 00:57:21 Europe/Berlin] get_order to server: 2
 [08-May-2017 00:57:21 Europe/Berlin] get_order to server: 3
 [08-May-2017 00:57:21 Europe/Berlin] =====Starting request: /cs637/rdahal/proj2/pizza2/admin/day/
+[24-Nov-2017 17:04:27 Europe/Berlin] =====Starting request: /WeatherApp/index.php?_ijt=752nf3cvih89n8gekb9lj27b7m
+[24-Nov-2017 17:04:27 Europe/Berlin] $_GET:_ijt: 752nf3cvih89n8gekb9lj27b7m
+[24-Nov-2017 17:04:27 Europe/Berlin] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in D:\xamp\htdocs\WeatherApp\model\accuweather.php on line 14
+[24-Nov-2017 17:04:27 Europe/Berlin] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in D:\xamp\htdocs\WeatherApp\model\accuweather.php on line 120
