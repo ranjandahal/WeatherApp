@@ -5,8 +5,14 @@
  * Date: 11/23/17
  * Time: 6:24 PM
  */
+
 require_once('constants.php');
 
+/**
+ * Returns current user ip address to determine location
+ * @param $ip
+ * @return array|bool
+ */
 function get_current_location_id($ip){
     $url = LOCATION_IP_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $ip;
@@ -34,6 +40,11 @@ function get_current_location_id($ip){
     return false;
 }
 
+/**
+ * Returns AccuWeather specific city id based on city name for accurate weather data
+ * @param $city
+ * @return array|bool
+ */
 function get_city_id($city){
     $url = LOCATION_CITY_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $city;
@@ -64,6 +75,11 @@ function get_city_id($city){
     return false;
 }
 
+/**
+ * Returns AccuWeather specific zip id based on zip code for accurate weather data
+ * @param $zip
+ * @return array|bool
+ */
 function get_zip_id($zip){
     $url = LOCATION_ZIP_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $zip;
@@ -90,6 +106,11 @@ function get_zip_id($zip){
     return false;
 }
 
+/**
+ * Returns One hours weather forecast
+ * @param $key
+ * @return array|bool
+ */
 function get_1hour_forcast($key){
     $url = FORECASE_1HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
@@ -128,6 +149,11 @@ function get_1hour_forcast($key){
     return false;
 }
 
+/**
+ * Returns 12 hours weather forecast
+ * @param $key
+ * @return array|bool
+ */
 function get_12hour_forcast($key){
     $url = FORECASE_12HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
@@ -166,6 +192,12 @@ function get_12hour_forcast($key){
     return false;
 }
 
+/**
+ * Returns json data for daily forecast.
+ * Note: This is not in use due to Professor requirement of weather data under 12 hours
+ * @param $key
+ * @return bool|mixed|string
+ */
 function get_daily_forcast($key){
     $url = FORECASE_DAILY_URL . $key . ACCU_WEATHER_KEY;
 
