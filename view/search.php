@@ -6,6 +6,7 @@
  * Time: 7:49 PM
  */
 require('../model/accuweather.php');
+require_once('../model/darksky.php');
 
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
@@ -22,4 +23,7 @@ $zip_key = get_zip_id($search);
 //Accuweather data pull
 $data[] = get_12hour_forcast($zip_key['key']);
 print_r(json_encode($data));
+
+$data_darksky[] = debug_darksky($search);
+echo "<script>console.log( 'Searching inside: " . $data_darksky . "' );</script>";
 ?>

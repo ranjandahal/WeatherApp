@@ -1,0 +1,1220 @@
+[04-Dec-2017 01:36:02 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=cfruhl0edaiocesap4g73n8fe5
+[04-Dec-2017 01:36:02 Europe/Paris] $_GET:_ijt: cfruhl0edaiocesap4g73n8fe5
+[04-Dec-2017 01:36:02 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 01:36:02 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 01:36:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 01:36:02 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 01:36:02 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:23:01 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:23:01 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:23:02 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:23:02 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:23:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:23:02 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:23:02 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:29:16 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:29:16 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:29:16 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:29:16 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:29:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:29:16 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:29:16 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:32:23 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:32:23 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:32:24 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:32:24 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:32:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:32:24 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:32:24 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:35:13 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:35:13 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:35:13 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:35:13 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:35:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:35:14 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:35:14 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:35:56 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:35:56 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:35:57 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:35:57 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:35:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:35:57 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:35:57 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:38:01 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:38:01 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:38:02 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:38:02 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:38:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:38:02 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:38:02 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:38:27 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:38:27 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:38:27 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:38:27 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:38:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:38:27 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:38:27 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:41:03 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:41:03 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:41:03 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 22:41:03 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:41:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:41:04 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 22:41:04 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 22:41:04 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:41:04 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:41:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:41:04 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:41:04 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:41:23 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:41:23 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:41:23 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 22:41:23 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 22:41:23 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:41:23 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:41:23 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:44:19 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:44:19 Europe/Paris] $_GET:_ijt: msemrc6k6ph9pfk9ibkp58nokj
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Notice:  Undefined variable: zip in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 13
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/postalcodes/US/search?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 87
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   3. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:13
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   4. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:87
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:44:19 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:44:19 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 22:47:52 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=lag7a0erbu65n55msacoka13i6
+[04-Dec-2017 22:47:52 Europe/Paris] $_GET:_ijt: lag7a0erbu65n55msacoka13i6
+[04-Dec-2017 22:47:53 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 22:47:53 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 22:47:53 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 22:47:53 Europe/Paris] PHP Stack trace:
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 22:47:53 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 16:49:38 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 16:49:38 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=::1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 16:49:38 America/New_York] PHP Stack trace:
+[04-Dec-2017 16:49:38 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 16:49:39 America/New_York] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 16:49:39 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 16:49:39 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 16:49:39 America/New_York] PHP Stack trace:
+[04-Dec-2017 16:49:39 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 16:49:39 America/New_York] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 16:49:39 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:12:17 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:12:17 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:12:17 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 00:12:17 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:12:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:12:17 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 00:12:17 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:12:54 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:12:54 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:12:54 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 00:12:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:12:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:12:54 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 00:12:54 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:17:00 Europe/Paris] =====Starting request: /WeatherApp/index.php
+[05-Dec-2017 00:17:01 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 00:17:01 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:17:01 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:17:01 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 00:17:01 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:17:36 Europe/Paris] =====Starting request: /WeatherApp/index.php
+[05-Dec-2017 00:17:36 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 00:17:36 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:17:36 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:17:36 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 00:17:36 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:25:40 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:25:40 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:25:40 Europe/Paris] PHP Warning:  require_once(../view/search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 9
+[05-Dec-2017 00:25:40 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:25:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:25:40 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:25:40 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '../view/search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 9
+[05-Dec-2017 00:25:40 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:25:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:25:41 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:09 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:09 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:09 Europe/Paris] PHP Warning:  require_once(C:\wamp\www\WeatherApp\WeatherApp\model/view/search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[05-Dec-2017 00:29:09 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:09 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:09 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:09 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required 'C:\wamp\www\WeatherApp\WeatherApp\model/view/search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[05-Dec-2017 00:29:09 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:09 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:09 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:27 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:27 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:27 Europe/Paris] PHP Warning:  require_once(C:\wamp\www\WeatherApp\WeatherApp\model\view\search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[05-Dec-2017 00:29:27 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:27 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:27 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required 'C:\wamp\www\WeatherApp\WeatherApp\model\view\search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[05-Dec-2017 00:29:27 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:27 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:44 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:44 Europe/Paris] $_GET:_ijt: pj5id2g8tcp13455e61nnsrhdp
+[05-Dec-2017 00:29:44 Europe/Paris] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[05-Dec-2017 00:29:44 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[05-Dec-2017 00:29:44 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[05-Dec-2017 00:29:44 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:44 Europe/Paris] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[05-Dec-2017 00:29:58 Europe/Paris] =====Starting request: /WeatherApp/index.php
+[05-Dec-2017 00:29:59 Europe/Paris] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[05-Dec-2017 00:29:59 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[05-Dec-2017 00:29:59 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[05-Dec-2017 00:29:59 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[05-Dec-2017 00:29:59 Europe/Paris] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:30:38 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:30:38 America/New_York] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:30:38 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:30:38 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:30:38 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:30:38 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:30:38 America/New_York] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:30:38 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:30:38 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:30:38 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:30:38 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:31:00 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:31:00 America/New_York] PHP Warning:  require_once(C:\wamp\www\WeatherApp\WeatherApp\..\view\search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:31:01 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:01 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:01 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:01 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'C:\wamp\www\WeatherApp\WeatherApp\..\view\search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:31:01 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:01 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:01 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:02 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:31:02 America/New_York] PHP Warning:  require_once(C:\wamp\www\WeatherApp\WeatherApp\..\view\search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:31:02 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:02 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:02 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:02 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'C:\wamp\www\WeatherApp\WeatherApp\..\view\search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:31:02 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:02 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:02 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:23 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:31:23 America/New_York] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:31:23 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:23 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:23 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:23 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:31:23 America/New_York] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:31:23 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:31:23 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:31:23 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:31:23 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:32:44 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:32:44 America/New_York] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:32:44 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:32:44 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:32:44 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:32:44 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:32:44 America/New_York] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:32:44 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:32:44 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:32:44 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:32:44 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:34:01 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:34:01 America/New_York] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:34:02 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:34:02 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:34:02 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:34:02 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:34:02 America/New_York] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:34:02 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:34:02 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:34:02 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:34:02 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:34:58 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:34:58 America/New_York] PHP Warning:  require_once(../view/search.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:34:58 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:34:58 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:34:58 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:34:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../view/search.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 10
+[04-Dec-2017 18:34:58 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:34:58 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:34:58 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:35:38 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:35:38 America/New_York] PHP Warning:  require(../model/accuweather.php): failed to open stream: No such file or directory in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:35:38 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:35:38 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:35:38 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:35:38 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:35:38 America/New_York] PHP Fatal error:  require(): Failed opening required '../model/accuweather.php' (include_path='C:/wamp/www/WeatherApp/WeatherApp/') in C:\wamp\www\WeatherApp\WeatherApp\view\search.php on line 8
+[04-Dec-2017 18:35:38 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:35:38 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:35:38 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:35:38 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:14 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:36:15 America/New_York] PHP Notice:  Undefined offset: 0 in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 91
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:15 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:15 America/New_York] PHP   4. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:20
+[04-Dec-2017 18:36:15 America/New_York] PHP Notice:  Undefined offset: 0 in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 92
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:15 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:15 America/New_York] PHP   4. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:20
+[04-Dec-2017 18:36:15 America/New_York] PHP Notice:  Undefined offset: 0 in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 93
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:15 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:15 America/New_York] PHP   4. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:20
+[04-Dec-2017 18:36:15 America/New_York] PHP Notice:  Undefined offset: 0 in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 94
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:15 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:15 America/New_York] PHP   4. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:20
+[04-Dec-2017 18:36:15 America/New_York] PHP Notice:  Undefined offset: 0 in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 95
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:15 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:15 America/New_York] PHP   4. get_zip_id() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:20
+[04-Dec-2017 18:36:15 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 18:36:15 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:15 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:15 America/New_York] PHP   2. require() C:\wamp\www\WeatherApp\WeatherApp\index.php:5
+[04-Dec-2017 18:36:16 America/New_York] PHP   3. require_once() C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php:10
+[04-Dec-2017 18:36:16 America/New_York] PHP   4. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\view\search.php:23
+[04-Dec-2017 18:36:16 America/New_York] PHP   5. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 18:36:16 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=::1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 18:36:16 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:16 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:16 America/New_York] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 18:36:16 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 18:36:16 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 18:36:16 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:36:16 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:36:16 America/New_York] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 18:36:16 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 18:37:43 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:37:44 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=::1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 18:37:44 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:37:44 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:37:44 America/New_York] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 18:37:44 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 18:37:44 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 18:37:44 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:37:44 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:37:44 America/New_York] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 18:37:44 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 18:40:07 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:40:07 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=::1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 18:40:07 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:40:07 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:40:07 America/New_York] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 18:40:07 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 18:40:07 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 18:40:07 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:40:07 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:40:07 America/New_York] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 18:40:07 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[04-Dec-2017 18:40:25 America/New_York] =====Starting request: /WeatherApp/WeatherApp/
+[04-Dec-2017 18:40:25 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=::1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[04-Dec-2017 18:40:25 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:40:25 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:40:25 America/New_York] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[04-Dec-2017 18:40:25 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[04-Dec-2017 18:40:25 America/New_York] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[04-Dec-2017 18:40:25 America/New_York] PHP Stack trace:
+[04-Dec-2017 18:40:25 America/New_York] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[04-Dec-2017 18:40:25 America/New_York] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[04-Dec-2017 18:40:25 America/New_York] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 00:44:44 Europe/Paris] =====Starting request: /WeatherApp/index.php
+[05-Dec-2017 00:44:44 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 00:44:44 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 00:44:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 00:44:45 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 00:44:45 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:23:18 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:23:18 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:23:19 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:23:19 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:19 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:23:19 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:20 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:20 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:20 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:20 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:21 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:21 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:22 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:22 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:23:23 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:23:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:13 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:24:13 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:24:13 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:24:13 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:13 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:24:13 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:14 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:14 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:15 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:15 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:24:16 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:16 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:47 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:24:47 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:48 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:48 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:49 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:49 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:50 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:50 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:24:51 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:24:51 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:24:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:52 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:29:52 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:29:52 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:29:52 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:52 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:29:52 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:29:52 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:52 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:53 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:53 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:54 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:54 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 30
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:29:55 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:29:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:03 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:32:03 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:04 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:04 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:05 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:05 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:06 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Notice:  Undefined index: precipAccumulation in C:\wamp\www\WeatherApp\WeatherApp\model\darksky.php on line 31
+[05-Dec-2017 21:32:06 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:32:07 Europe/Paris] PHP   2. darksky_forecast() C:\wamp\www\WeatherApp\WeatherApp\index.php:21
+[05-Dec-2017 21:32:07 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:32:07 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:32:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:33:40 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:33:40 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:33:40 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:33:40 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:33:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:33:40 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:33:40 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:33:40 Europe/Paris] PHP Notice:  Array to string conversion in C:\wamp\www\WeatherApp\WeatherApp\index.php on line 22
+[05-Dec-2017 21:33:40 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:33:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:34:37 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:34:37 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:34:37 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[05-Dec-2017 21:34:37 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[05-Dec-2017 21:34:37 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:34:37 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:34:37 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
+[05-Dec-2017 21:43:10 Europe/Paris] =====Starting request: /WeatherApp/index.php?_ijt=l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:43:10 Europe/Paris] $_GET:_ijt: l17c5cg46lfdt0chnq6glev8ak
+[05-Dec-2017 21:43:10 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/locations/v1/cities/ipaddress?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;q=127.0.0.1): failed to open stream: HTTP request failed! HTTP/1.1 503 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 20
+[05-Dec-2017 21:43:10 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   2. get_current_location_id() C:\wamp\www\WeatherApp\WeatherApp\index.php:15
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:20
+[05-Dec-2017 21:43:10 Europe/Paris] PHP Warning:  file_get_contents(http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/?apikey=0W8rK2H9d8E4fhNPxnbSXZF49SCdLTOl&amp;details=true): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php on line 160
+[05-Dec-2017 21:43:10 Europe/Paris] PHP Stack trace:
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   1. {main}() C:\wamp\www\WeatherApp\WeatherApp\index.php:0
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   2. get_12hour_forcast() C:\wamp\www\WeatherApp\WeatherApp\index.php:17
+[05-Dec-2017 21:43:10 Europe/Paris] PHP   3. file_get_contents() C:\wamp\www\WeatherApp\WeatherApp\model\accuweather.php:160
