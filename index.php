@@ -17,7 +17,7 @@ echo "loc_key = ".$loc_key;
 $weather_data = get_12hour_forcast($loc_key['key']);
 
 //DarkSky Data Call
-$lat_long = array("lat"=>"42.3601", "lon"=>"71.0589");
+$lat_long = array("lat"=>42.3605, "lon"=>-71.0589);
 $weather_data_darksky = darksky_forecast($lat_long);
 include('default.php');
 ?>

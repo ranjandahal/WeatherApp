@@ -56,5 +56,13 @@ function darksky_forecast($lat_long){
     return false;
 }
 
+/*
+ * For debugging purposes only*/
+// Uncomment below to check DarkSky Data Call
+//$lat_long = array("lat"=>42.3601, "lon"=>-71.0589);
+//$weather_data_darksky = darksky_forecast($lat_long);
+//print"<pre>";
+//print_r($weather_data_darksky);
+//print "</pre>";
 ?>
 

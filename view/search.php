@@ -24,6 +24,8 @@ $zip_key = get_zip_id($search);
 $data[] = get_12hour_forcast($zip_key['key']);
 print_r(json_encode($data));
 
-$data_darksky[] = debug_darksky($search);
-echo "<script>console.log( 'Searching inside: " . $data_darksky . "' );</script>";
+//DarkSky Data Call
+$lat_long = array("lat"=>"42.3601", "lon"=>"71.0589");
+$data_darksky[] = darksky_forecast($lat_long);;
+print_r(json_encode($data_darksky));
 ?>
