@@ -7,20 +7,27 @@
  */
 require_once('constants.php');
 
+$test= get_current_location_id('158.121.249.23');
+echo $test['postal'];
+//print_r($test[]);
+
+
+
+
 function get_current_location_id($ip){
     $url = LOCATION_IP_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $ip;
 
     $results = file_get_contents($url . $query);
     $results = json_decode($results, true);
-
+    echo $results;
     if(!is_null($results)) {
-        $local_name = $results[0]['LocalizedName'];
-        $key = $results[0]['Key'];
-        $zip = $results[0]['PrimaryPostalCode'];
-        $state = $results[0]['AdministrativeArea']['ID'];
-        $geo = array('lat' => $results[0]['GeoPosition']['Latitude'],
-            'lon' => $results[0]['GeoPosition']['Longitude']);
+        $local_name = $results['LocalizedName'];
+        $key = $results['Key'];
+        $zip = $results['PrimaryPostalCode'];
+        $state = $results['AdministrativeArea']['ID'];
+        $geo = array('lat' => $results['GeoPosition']['Latitude'],
+            'lon' => $results['GeoPosition']['Longitude']);
 
         $ip_object = array('localname' => $local_name,
             'key' => $key,
@@ -33,6 +40,7 @@ function get_current_location_id($ip){
     }
     return false;
 }
+
 
 function get_city_id($city){
     $url = LOCATION_CITY_URL . ACCU_WEATHER_KEY;
@@ -106,6 +114,7 @@ function get_1hour_forcast($key){
         $hour_object = array('hour' => $hour,
             'icon' => $icon,
             'icon_phrase' => $icon_phrase,
+            'icon_url' => '/icons/' . $icon . '-s.png',
             'temp' => $temp,
             'prep' => $prep,
         );

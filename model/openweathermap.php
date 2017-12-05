@@ -1,38 +1,59 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ranjan Dahal
- * Date: 11/23/17
- * Time: 6:24 PM
+ * User: Nirajan
+ * Date: 11/28/2017
+ * Time: 8:38 PM
  */
-require_once('model/constants.php');
 
-function get_zip_weather($zip, $country){
-    $url = OPEN_WEATHER_MAP_BASE_URL. 'zip=' . $zip . ',' . $country . ACCU_WEATHER_KEY;
+require_once('constants.php');
 
-    // create curl resource
-    $ch = curl_init($url);
-    $results = curl_exec($ch);
-    curl_close($ch);
+$googleAPTKeyForMe = "AIzaSyD_5iXKh323S9bVK5NP1ZpwKjNzoxVPIW8";
 
-    // Will dump a beauty json :3
-    var_dump(json_decode($results, true));
+getAddressNameFromZipCode("02134");
+//addressNameFromZipCode
+function getAddressNameFromZipCode($zip)
+{
+    $url = weatherMAp_CurrentBaseUrl_Zip.$zip.weatherMapApiKey;
+    echo $url;
+    echo "<br>";
 
-    foreach($results as $result) {
-        if (strcmp($result['Country']['ID'], 'US') == 0) {
-            $local_name = $result['LocalizedName'];
-            $key = $result['Key'];
-            $state = $result['AdministrativeArea']['ID'];
-            $geo = array('lat' => $result['GeoPosition']['Latitude'],
-                'lon' => $result['GeoPosition']['Longitude']);
-            break;
+    $results = file_get_contents("{$url}");
+    $results = json_decode($results, true);
+
+
+
+}
+
+get_1hour_forcast("02134");
+
+function get_1hour_forcast($zip){
+
+    $url = weatherMAp_CurrentBaseUrl_Zip.$zip.weatherMapApiKey;
+    //echo $url;
+   // echo "<br>";
+
+    $results = file_get_contents("{$url}");
+    $results = json_decode($results, true);
+    $temperature = $results['main']['temp'];
+   // echo $results;
+
+    if(!is_null($results)) {
+        foreach ($results as $result) {
+            $hour = date("HH", substr($result['EpochDateTime'], 0, 10));
+            $icon = $result['WeatherIcon'];
+            $icon_phrase = $result['IconPhrase'];
+            $temp = $result['Temperature']['Value'];
+            $prep = $result['PrecipitationProbability'];
         }
+        $hour_object = array('hour' => $hour,
+            'icon' => $icon,
+            'icon_phrase' => $icon_phrase,
+            'icon_url' => '/icons/' . $icon . '-s.png',
+            'temp' => $temp,
+            'prep' => $prep,
+        );
+        return $hour_object;
     }
-    $zip_object = array('localname' => $local_name,
-        'key'=> $key,
-        'postal' => $zip,
-        'state' => $state,
-        'geo'=> $geo
-    );
-    return $zip_object;
+    return false;
 }

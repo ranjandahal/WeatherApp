@@ -2,6 +2,7 @@
 include 'util/main.php';
 require('model/ip.php');
 require('model/accuweather.php');
+require ('model/openweathermap.php');
 
 
 $action = filter_input(INPUT_POST, 'action');
@@ -11,9 +12,9 @@ if ($action == NULL) {
         $action = 'search';
     }
 }
-$ip = get_client_ip();
-$loc_key = get_current_location_id($ip);
-$weather_data = get_12hour_forcast($loc_key['key']);
+//$ip = get_client_ip();
+//$loc_key = get_current_location_id($ip);
+//$weather_data = get_12hour_forcast($loc_key['key']);
 
 include('default.php');
 ?>
