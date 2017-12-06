@@ -42,7 +42,7 @@ include 'view/header.php'; ?>
         <div class="col-sm-6 col-sm-offset-3">
             <form name="searchform" id="searchform" action="view/search.php" method="GET">
                 <div class="input-group">
-                    <input id="search" type="text" class="form-control input-lg" name="search" placeholder="Search Loations">
+                    <input id="search" type="text" class="form-control input-lg" name="search" placeholder="Search Locations">
                     <span class="input-group-addon"><i id="searchsubmit" class="glyphicon glyphicon glyphicon-search"></i></span>
                 </div>
             </form>
