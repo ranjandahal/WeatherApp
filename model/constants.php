@@ -12,17 +12,8 @@ define('FORECASE_DAILY_URL', ACCU_WEATHER_BASE_URL . 'forecasts/v1/daily/1day/')
 define('OPEN_WEATHER_MAP_BASE_URL', 'http://samples.openweathermap.org/data/2.5/weather?');
 define('OPEN_WEATHER_MAP_KEY','&appid=3cdfc33948f84295e9285f7c49a48ad7');
 
-define('weatherMAp_CurrentBaseUrl_Zip', 'https://api.openweathermap.org/data/2.5/weather?zip=');
-
-define('weatherMapApiKey','&APPID=49d81087680614c83a1c4ee91a328384');
-
-
-
-
 define('NOAA_BASE_URL','');
 define('NOAA_KEY','WGtnTKqqyspurDVazfGftfialHmUHaeS');
-
-
 
 define('DARK_SKY_BASE_URL','');
 define('DARK_SKY_KEY','8e5f4349749ce069d55a6f33315dec92');

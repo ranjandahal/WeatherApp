@@ -23,10 +23,6 @@ include 'view/header.php'; ?>
                         {
                             //data: return data from server
                             $('#accu').text(data);
-                            for(var i = 0; i < )
-                            $('#accu').append(function () {
-
-                            });
                         },
                         error: function(jqXHR, textStatus, errorThrown)
                         {
@@ -78,7 +74,7 @@ include 'view/header.php'; ?>
                     <div class="col-sm-3">
                         <h3>Accu Weather</h3>
                         <div id="accu">
-                        <?php echo is_null($weather_data)?'':$weather_data; ?>
+                        <?php echo $weather_data; ?>
                         </div>
                     </div>
                     <div class="col-sm-3">

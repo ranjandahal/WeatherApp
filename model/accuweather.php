@@ -5,43 +5,46 @@
  * Date: 11/23/17
  * Time: 6:24 PM
  */
+
 require_once('constants.php');
 
-$test= get_current_location_id('158.121.249.23');
-echo $test['postal'];
-//print_r($test[]);
-
-
-
-
+/**
+ * Returns current user ip address to determine location
+ * @param $ip
+ * @return array|bool
+ */
 function get_current_location_id($ip){
     $url = LOCATION_IP_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $ip;
 
     $results = file_get_contents($url . $query);
     $results = json_decode($results, true);
-    echo $results;
-    if(!is_null($results)) {
-        $local_name = $results['LocalizedName'];
-        $key = $results['Key'];
-        $zip = $results['PrimaryPostalCode'];
-        $state = $results['AdministrativeArea']['ID'];
-        $geo = array('lat' => $results['GeoPosition']['Latitude'],
-            'lon' => $results['GeoPosition']['Longitude']);
 
-        $ip_object = array('localname' => $local_name,
+    if(!is_null($results)) {
+        $local_name = $results[0]['LocalizedName'];
+        $key = $results[0]['Key'];
+        $zip = $results[0]['PrimaryPostalCode'];
+        $state = $results[0]['AdministrativeArea']['ID'];
+        $geo = array('lat' => $results[0]['GeoPosition']['Latitude'],
+            'lon' => $results[0]['GeoPosition']['Longitude']);
+
+        $ip_object = array(
+            'localname' => $local_name,
             'key' => $key,
             'postal' => $zip,
             'state' => $state,
             'geo' => $geo
         );
-
         return $ip_object;
     }
     return false;
 }
 
-
+/**
+ * Returns AccuWeather specific city id based on city name for accurate weather data
+ * @param $city
+ * @return array|bool
+ */
 function get_city_id($city){
     $url = LOCATION_CITY_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $city;
@@ -60,7 +63,8 @@ function get_city_id($city){
                 break;
             }
         }
-        $city_object = array('localname' => $local_name,
+        $city_object = array(
+            'localname' => $local_name,
             'key' => $key,
             'postal' => 0,
             'state' => $state,
@@ -71,6 +75,11 @@ function get_city_id($city){
     return false;
 }
 
+/**
+ * Returns AccuWeather specific zip id based on zip code for accurate weather data
+ * @param $zip
+ * @return array|bool
+ */
 function get_zip_id($zip){
     $url = LOCATION_ZIP_URL . ACCU_WEATHER_KEY;
     $query = '&q=' . $zip;
@@ -87,7 +96,7 @@ function get_zip_id($zip){
 
         $zip_object = array('localname' => $local_name,
             'key' => $key,
-            'postal' => $zip,
+            'zip' => $zip,
             'state' => $state,
             'geo' => $geo
         );
@@ -97,8 +106,13 @@ function get_zip_id($zip){
     return false;
 }
 
+/**
+ * Returns One hours weather forecast
+ * @param $key
+ * @return array|bool
+ */
 function get_1hour_forcast($key){
-    $url = FORECASE_1HOUR_URL . $key . ACCU_WEATHER_KEY;
+    $url = FORECASE_1HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
     $results = file_get_contents($url);
     $results = json_decode($results, true);
@@ -109,22 +123,39 @@ function get_1hour_forcast($key){
             $icon = $result['WeatherIcon'];
             $icon_phrase = $result['IconPhrase'];
             $temp = $result['Temperature']['Value'];
-            $prep = $result['PrecipitationProbability'];
+            $real_feel_temp = $result['RealFeelTemperature']['Value'];
+            $wind_speed = $result['Wind']['Speed']['Value'];
+            $humidity = $result['RelativeHumidity'];
+            $rain_probability = $result['RainProbability'];
+            $snow_probability = $result['SnowProbability'];
+            $cloud_cover = $result['CloudCover'];
+            $prep_probability = $result['PrecipitationProbability'];
         }
-        $hour_object = array('hour' => $hour,
+        $hour_object = array(
+            'hour' => $hour,
             'icon' => $icon,
             'icon_phrase' => $icon_phrase,
-            'icon_url' => '/icons/' . $icon . '-s.png',
             'temp' => $temp,
-            'prep' => $prep,
+            'real_feel_temp' => $real_feel_temp,
+            'wind_speed' => $wind_speed,
+            'humidity' => $humidity,
+            'rain_probability' => $rain_probability,
+            'snow_probability' => $snow_probability,
+            'cloud_cover' => $cloud_cover,
+            'prep' => $prep_probability
         );
         return $hour_object;
     }
     return false;
 }
 
+/**
+ * Returns 12 hours weather forecast
+ * @param $key
+ * @return array|bool
+ */
 function get_12hour_forcast($key){
-    $url = FORECASE_12HOUR_URL . $key . ACCU_WEATHER_KEY;
+    $url = FORECASE_12HOUR_URL . $key . ACCU_WEATHER_KEY . '&details=true';
 
     $results = file_get_contents($url);
     $results = json_decode($results, true);
@@ -135,12 +166,25 @@ function get_12hour_forcast($key){
             $icon = $result['WeatherIcon'];
             $icon_phrase = $result['IconPhrase'];
             $temp = $result['Temperature']['Value'];
-            $prep = $result['PrecipitationProbability'];
-            $hour12_object[] = array('hour' => $hour,
+            $real_feel_temp = $result['RealFeelTemperature']['Value'];
+            $wind_speed = $result['Wind']['Speed']['Value'];
+            $humidity = $result['RelativeHumidity'];
+            $rain_probability = $result['RainProbability'];
+            $snow_probability = $result['SnowProbability'];
+            $cloud_cover = $result['CloudCover'];
+            $prep_probability = $result['PrecipitationProbability'];
+            $hour12_object[] = array(
+                'hour' => $hour,
                 'icon' => $icon,
                 'icon_phrase' => $icon_phrase,
                 'temp' => $temp,
-                'prep' => $prep,
+                'real_feel_temp' => $real_feel_temp,
+                'wind_speed' => $wind_speed,
+                'humidity' => $humidity,
+                'rain_probability' => $rain_probability,
+                'snow_probability' => $snow_probability,
+                'cloud_cover' => $cloud_cover,
+                'prep' => $prep_probability
             );
         }
         return $hour12_object;
@@ -148,6 +192,12 @@ function get_12hour_forcast($key){
     return false;
 }
 
+/**
+ * Returns json data for daily forecast.
+ * Note: This is not in use due to Professor requirement of weather data under 12 hours
+ * @param $key
+ * @return bool|mixed|string
+ */
 function get_daily_forcast($key){
     $url = FORECASE_DAILY_URL . $key . ACCU_WEATHER_KEY;
 
