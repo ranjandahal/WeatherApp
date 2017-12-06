@@ -18,14 +18,23 @@ if ($action == NULL) {
 
 $search = filter_input(INPUT_GET, 'search');
 
-$zip_key = get_zip_id($search);
+if(is_int($search) && strlen($search) == 5){
+    $zip_key = get_zip_id($search);
+}else{
+    $zip_key = get_city_id($search);
+}
+
+//OpenWeather
+$data[] = get_weather_info($zip_key['postal'], 12);
+
+//DarkSky
+$data[] = darksky_forecast_hourly($zip_key['geo'], 12);
 
 //Accuweather data pull
 $data[] = get_12hour_forcast($zip_key['key']);
-print_r(json_encode($data));
 
-//DarkSky Data Call
-$lat_long = array("lat"=>"42.3601", "lon"=>"71.0589");
-$data_darksky[] = darksky_forecast($lat_long);;
-print_r(json_encode($data_darksky));
+//NOOA
+$data[] = get_12hour_forcast($zip_key['key']);
+
+print_r(json_encode($data));
 ?>
