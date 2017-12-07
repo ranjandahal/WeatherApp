@@ -23,15 +23,16 @@ include 'view/header.php'; ?>
                         {
                             //data: return data from server
                             //$('#accu').text(data);
+                            var i = 0, j = 0;
                             try {
                                 var day_or_night = '';
                                 var json_content = JSON.parse(data);
-                                for (var i = 0; i < json_content.length; i++) {
+                                for (i = 0; i < json_content.length; i++) {
                                     if (json_content[i].length > 0) {
                                         var block = '';
                                         var block6 = '';
                                         var inner_json_content = json_content[i];
-                                        for (var j = 0; j < inner_json_content.length; j++) {
+                                        for (j = 0; j < inner_json_content.length; j++) {
                                             block += '<div class="well">'
                                             var hour = inner_json_content[j]['hour'];
                                             //<i class="wi wi-day-sunny">25 &deg;F</i>
@@ -55,14 +56,34 @@ include 'view/header.php'; ?>
                                                 block6 = block;
                                         }
                                         if (i == 0) {
+                                            $('#weather6').append(block6);
+                                            $('#weather12').append(block);
+                                        }else if (i == 1) {
+                                            $('#darksky6').append(block6);
+                                            $('#darksky12').append(block);
+                                        }else if (i == 2) {
                                             $('#accu6').append(block6);
                                             $('#accu12').append(block);
+                                        }else{
+                                            $('#nooa6').append(block6);
+                                            $('#nooa12').append(block);
                                         }
                                     }
                                 }
                             }catch(err) {
-                                $('#accu6').append(err.message);
-                                $('#accu12').append(err.message);
+                                if (i == 0) {
+                                    $('#weather6').append(err.message);
+                                    $('#weather12').append(err.message);
+                                }else if(i == 1) {
+                                    $('#darksky6').append(err.message);
+                                    $('#darksky12').append(err.message);
+                                }else if(i == 2) {
+                                    $('#accu6').append(err.message);
+                                    $('#accu12').append(err.message);
+                                }else if(i == 3) {
+                                    $('#nooa6').append(err.message);
+                                    $('#nooa12').append(err.message);
+                                }
                             }
                         },
                         error: function(jqXHR, textStatus, errorThrown)

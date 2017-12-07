@@ -1,38 +1,178 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ranjan Dahal
- * Date: 11/23/17
- * Time: 6:24 PM
+ * User: Nirajan
+ * Date: 11/28/2017
+ * Time: 11:55 PM
  */
-require_once('model/constants.php');
 
-function get_zip_weather($zip, $country){
-    $url = OPEN_WEATHER_MAP_BASE_URL. 'zip=' . $zip . ',' . $country . ACCU_WEATHER_KEY;
 
-    // create curl resource
-    $ch = curl_init($url);
-    $results = curl_exec($ch);
-    curl_close($ch);
+require_once('constants.php');
 
-    // Will dump a beauty json :3
-    var_dump(json_decode($results, true));
+//returns zip code which has location information for ip address
+function getZip_From_IpLocation($ipLocation){
 
-    foreach($results as $result) {
-        if (strcmp($result['Country']['ID'], 'US') == 0) {
-            $local_name = $result['LocalizedName'];
-            $key = $result['Key'];
-            $state = $result['AdministrativeArea']['ID'];
-            $geo = array('lat' => $result['GeoPosition']['Latitude'],
-                'lon' => $result['GeoPosition']['Longitude']);
-            break;
-        }
-    }
-    $zip_object = array('localname' => $local_name,
-        'key'=> $key,
-        'postal' => $zip,
-        'state' => $state,
-        'geo'=> $geo
-    );
-    return $zip_object;
+    $apiKey = "?apikey=JAVF2lEdSJllL7h1ZbeOoVQqj5hABP5p";
+    $url = "http://dataservice.accuweather.com/locations/v1/cities/ipaddress"."?apikey=JAVF2lEdSJllL7h1ZbeOoVQqj5hABP5p"."&q="."{$ipLocation}";
+    $results = file_get_contents("{$url}");
+    $results = json_decode($results, true);
+    $zip = $results['PrimaryPostalCode'];
+    return $zip;
+
 }
+
+function get_weather_info($zip, $hour){
+    $url_for_Current = OPEN_WEATHER_MAP_BASE_URL_CURRENT . $zip . OPEN_WEATHER_MAP_KEY;
+    $url_for_weekly =  OPEN_WEATHER_MAP_BASE_URL_WEEKLY .  $zip . OPEN_WEATHER_MAP_KEY;
+
+
+    if($hour=="1"||$hour=="Current"||$hour=="current"||$hour=="CURRENT")
+    {
+        $str = file_get_contents("{$url_for_Current}");
+        $jason = json_decode($str,true);
+        $tempreature = $jason['main']['temp'];
+        $windSpeed = $jason['wind']['speed'];
+        $pressure = $jason['main']['pressure'];
+        $icon = $jason['weather']['0']['icon'];
+        $icon_phrase = $jason['weather']['0']['description'];
+        $humidity = $jason['main']['humidity'];
+
+
+        $current_object = array(
+            'hour' => "N/A",
+            'icon' => $icon,
+            'icon_phrase' => $icon_phrase,
+            'temp' => $tempreature,
+            'real_feel_temp' => "N/A",
+            'wind_speed' => $windSpeed,
+            'humidity' => $humidity,
+            'rain_probability' => "N/A",
+            'snow_probability' => "N/A",
+            'cloud_cover' => "N/A",
+            'prep' => "N/A"
+        );
+
+
+        echo $tempreature;
+
+        return $current_object;
+
+    }
+
+    else if($hour =="6"||$hour=="six"||$hour=="Six"||$hour=="SIX")
+    {
+        $str = file_get_contents("{$url_for_weekly}");
+        $jason = json_decode($str,true);
+        echo "<br>";
+        echo "Time Date and Temperture For 6 Hours:";
+        $count = 6;
+        for ($i=0;$i<$count;$i++)
+        {
+            echo "<br>";
+            $oneDateAndTime = $jason['list']["{$i}"]['dt_txt'];
+            $oneTemperature=$jason['list']["{$i}"]['main']['temp'];
+            $windSpeed = $jason['list']["{$i}"]['wind']['speed'];
+            $pressure = $jason['list']["{$i}"]['main']['pressure'];
+            $icon = $jason['list']["{$i}"]['weather']['0']['icon'];
+            $icon_phrase = $jason['list']["{$i}"]['weather']['0']['description'];
+            $humidity = $jason['list']["{$i}"]['main']['humidity'];
+
+            echo $oneTemperature;
+            echo "<br>";
+
+
+            $sixHour_object[] = array(
+                'hour' => $oneDateAndTime,
+                'icon' => $icon,
+                'icon_phrase' => $icon_phrase,
+                'temp' => $oneTemperature,
+                'real_feel_temp' => "N/A",
+                'wind_speed' => $windSpeed,
+                'humidity' => $humidity,
+                'rain_probability' => "N/A",
+                'snow_probability' => "N/A",
+                'cloud_cover' => "N/A",
+                'prep' => "N/A"
+
+            );
+
+
+        }
+
+        return $sixHour_object;
+        echo "<br>";
+    }
+
+    else if($hour =="12"||$hour=="twelve"||$hour=="Twelve"||$hour=="TWELVE")
+    {
+        $str = file_get_contents("{$url_for_weekly}");
+        $jason = json_decode($str,true);
+        echo "<br>";
+        echo "Time Date and Temperture For 6 Hours:";
+        $count = 12;
+        for ($i=0;$i<$count;$i++) {
+            echo "<br>";
+            $oneDateAndTime = $jason['list']["{$i}"]['dt_txt'];
+            $oneTemperature = $jason['list']["{$i}"]['main']['temp'];
+            $windSpeed = $jason['list']["{$i}"]['wind']['speed'];
+            $pressure = $jason['list']["{$i}"]['main']['pressure'];
+            $icon = $jason['list']["{$i}"]['weather']['0']['icon'];
+            $icon_phrase = $jason['list']["{$i}"]['weather']['0']['description'];
+            $humidity = $jason['list']["{$i}"]['main']['humidity'];
+
+
+            $twelveHour_object[] = array(
+                'hour' => $oneDateAndTime,
+                'icon' => $icon,
+                'icon_phrase' => $icon_phrase,
+                'temp' => $oneTemperature,
+                'real_feel_temp' => "N/A",
+                'wind_speed' => $windSpeed,
+                'humidity' => $humidity,
+                'rain_probability' => "N/A",
+                'snow_probability' => "N/A",
+                'cloud_cover' => "N/A",
+                'prep' => "N/A"
+            );
+        }
+
+            return $twelveHour_object;
+    }
+    else
+    {
+        $str = file_get_contents("{$url_for_weekly}");
+        $jason = json_decode($str,true);
+        echo "<br>";
+        echo "Time Date and Temperture For 6 Hours:";
+        $count = 24;
+        for ($i=0;$i<$count;$i++) {
+            echo "<br>";
+            $oneDateAndTime = $jason['list']["{$i}"]['dt_txt'];
+            $oneTemperature = $jason['list']["{$i}"]['main']['temp'];
+            $windSpeed = $jason['list']["{$i}"]['wind']['speed'];
+            $pressure = $jason['list']["{$i}"]['main']['pressure'];
+            $icon = $jason['list']["{$i}"]['weather']['0']['icon'];
+            $icon_phrase = $jason['list']["{$i}"]['weather']['0']['description'];
+            $humidity = $jason['list']["{$i}"]['main']['humidity'];
+
+
+            $twentyFourHour_object[] = array(
+                'hour' => $oneDateAndTime,
+                'icon' => $icon,
+                'icon_phrase' => $icon_phrase,
+                'temp' => $oneTemperature,
+                'real_feel_temp' => "N/A",
+                'wind_speed' => $windSpeed,
+                'humidity' => $humidity,
+                'rain_probability' => "N/A",
+                'snow_probability' => "N/A",
+                'cloud_cover' => "N/A",
+                'prep' => "N/A"
+            );
+        }
+
+        return $twentyFourHour_object;
+    }
+}
+
+?>
