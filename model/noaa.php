@@ -53,13 +53,13 @@ function get_values($response, $size){
                                     'icon'=> $icon,
                                     'icon_phrase' => $icon_phrase,
                                     'temp' => $temp,
-                                    'real_feel_temp'=> null,
+                                    'real_feel_temp'=> $temp,
                                     'wind_speed'=> $wind_speed,
-                                    'humidity'=> null,
-                                    'rain_probability' => null,
-                                    'snow_probability' => null,
-                                    'cloud_cover' => null,
-                                    'prep' => null,
+                                    'humidity'=> 0,
+                                    'rain_probability' => 0,
+                                    'snow_probability' => 0,
+                                    'cloud_cover' => 0,
+                                    'prep' => 0,
 
                                 );
                                 //print_r($hour_object['temp']);
